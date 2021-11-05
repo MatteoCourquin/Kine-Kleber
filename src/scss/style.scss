@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 700;
+}
+
+.resa_btn{
+	p{
+		writing-mode:tb-rl; 
+		white-space: nowrap;
+	}
+}
+

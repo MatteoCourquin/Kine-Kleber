@@ -1,0 +1,31 @@
+{
+  "name": "cours-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "start": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "laravel-mix": "^6.0.37",
+    "postcss": "^8.3.11",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIM-Creative-Technology/framework-front-team-madevn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IIM-Creative-Technology/framework-front-team-madevn/issues"
+  },
+  "homepage": "https://github.com/IIM-Creative-Technology/framework-front-team-madevn#readme",
+  "description": ""
+}
